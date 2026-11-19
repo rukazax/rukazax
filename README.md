@@ -6,7 +6,7 @@
 
 **RU** · [English](#english)
 
-![repos](https://img.shields.io/github/repos/rukazax?style=for-the-badge&label=public%20repos&logo=github&color=1f3a6e)
+![repos](https://img.shields.io/badge/dynamic/json?label=public%20repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Frukazax&style=for-the-badge&logo=github&color=1f3a6e)
 ![private](https://img.shields.io/badge/private-5🔒-15243f?style=for-the-badge)
 ![followers](https://img.shields.io/github/followers/rukazax?style=for-the-badge&label=followers&logo=github&color=4b6bfb)
 [![website](https://img.shields.io/badge/сайт-rukazax.github.io-8a2be2?style=for-the-badge)](https://rukazax.github.io/)

@@ -6,8 +6,9 @@
 
 **RU** · [English](#english)
 
-![repos](https://img.shields.io/badge/репозиториев-20_%2815_%2B_5🔒%29-1f3a6e?style=for-the-badge)
-![followers](https://img.shields.io/github/followers/rukazax?style=for-the-badge&color=4b6bfb)
+![repos](https://img.shields.io/github/repos/rukazax?style=for-the-badge&label=public%20repos&logo=github&color=1f3a6e)
+![private](https://img.shields.io/badge/private-5🔒-15243f?style=for-the-badge)
+![followers](https://img.shields.io/github/followers/rukazax?style=for-the-badge&label=followers&logo=github&color=4b6bfb)
 [![website](https://img.shields.io/badge/сайт-rukazax.github.io-8a2be2?style=for-the-badge)](https://rukazax.github.io/)
 [![email](https://img.shields.io/badge/email-rukazax@gmail.com-15243f?style=for-the-badge)](mailto:rukazax@gmail.com)
 
@@ -110,7 +111,7 @@ graph LR
 
 ## 📊 Проекты в цифрах
 
-- **20 репозиториев**: 15 публичных + 5 приватных
+- **20 проектных репозиториев**: 15 публичных + 5 приватных (счётчик `public repos` в бейджах живой и считает вместе с этим профиль-репозиторием; `private` — снапшот 19.11.2026)
 - Языки: JavaScript ×5 · HTML ×4 · Dart ×3 · Python ×2 · Kotlin ×1 · Java ×1 · Shell ×1 · PowerShell ×1 · docs ×1 (остальное — разметка и конфиги)
 - Ключевые направления: агентская автоматизация (DSH) · self-hosting · приватность · мобильные клиенты
 
@@ -190,7 +191,7 @@ All of my projects live here: the ecosystem around [DeepSeek Harness](https://gi
 
 ### 📊 Projects in numbers
 
-- **20 repositories**: 15 public + 5 private
+- **20 project repositories**: 15 public + 5 private (the `public repos` badge is a live counter and includes this profile repo; `private` is a snapshot of 2026-11-19)
 - Languages: JavaScript ×5 · HTML ×4 · Dart ×3 · Python ×2 · Kotlin ×1 · Java ×1 · Shell ×1 · PowerShell ×1 · docs ×1
 - Focus areas: agent automation (DSH) · self-hosting · privacy · mobile clients
 

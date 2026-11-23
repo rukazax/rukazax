@@ -21,7 +21,7 @@
 
 | Раздел | Кол-во |
 | --- | --- |
-| [🤖 AI, DSH и локальный ИИ](#-ai-dsh-и-локальный-ии) | 6 |
+| [🤖 AI, DSH и локальный ИИ](#-ai-dsh-и-локальный-ии) | 7 |
 | [📱 Android и клиенты](#-android-и-клиенты) | 3 |
 | [🔐 VPN и сеть](#-vpn-и-сеть) | 5 |
 | [🧰 Утилиты](#-утилиты) | 2 |
@@ -44,12 +44,14 @@ graph LR
     CORE[ядро DSH]
     PLG[deepseek_harness · плагины]
     MOB[dsh-mobile / narwhal]
+    HUB[dsh_hub · федерация]
     X1O[x1o · self-hosted harness]
   end
   NET[🔐 VPN и сеть<br/>xio_vpn · MyVPN · nat64-bridge · routeveil]
   BOOK[📖 shov<br/>книга + аудио]
   CORE --> PLG
   MOB --> CORE
+  HUB --> CORE
   X1O --> CORE
   LLM --> CORE
   NAS --> LLM
@@ -63,6 +65,7 @@ graph LR
 | --- | --- | --- |
 | [local-llm](https://github.com/rukazax/local-llm) | Локальный LLM-сервер на 4×Tesla V100 SXM2 (128 ГБ NVLink): железо, движки, модели, роадмап | docs · CUDA · llama.cpp |
 | [deepseek_harness](https://github.com/rukazax/deepseek_harness) | Плагины для DeepSeek Harness: MCP-клиент + Sarex и Яндекс.Почта MCP-серверы | Node.js · Python |
+| [dsh_hub](https://github.com/rukazax/dsh_hub) | Федерация DSH: хаб, узлы и Android-приложение — чужие сессии в одном окне, единые ключи моделей, общая память | Node.js · Kotlin · SSE |
 | [dsh-mobile](https://github.com/rukazax/dsh-mobile) | Мобильный пульт для DSH: плагин, PWA, WebView APK, руководство | JavaScript · Kotlin |
 | [narwhal](https://github.com/rukazax/narwhal) | Неофициальный мобильный клиент DeepSeek Harness для Android | Flutter · Dart |
 | [dsh-ddns](https://github.com/rukazax/dsh-ddns) | DDNS-обновлялка адреса (GitHub Actions + DuckDNS) для DSH | PowerShell |
@@ -122,8 +125,8 @@ graph LR
 
 ## 📊 Проекты в цифрах
 
-- **23 проектных репозитория**: 17 публичных + 6 приватных (бейдж `public repos` живой и считает вместе с этим профиль-репозиторием; `private` — снапшот 23.11.2026)
-- Языки: JavaScript ×6 · Dart ×4 · HTML ×3 · Python ×3 · Shell ×2 · Kotlin ×1 · Java ×1 · PowerShell ×1 (ещё два репозитория — витрины без кода: `MyVPN-releases`, `routeveil-android`)
+- **24 проектных репозитория**: 18 публичных + 6 приватных (бейдж `public repos` живой и считает вместе с этим профиль-репозиторием; `private` — снапшот 23.11.2026)
+- Языки: JavaScript ×7 · Dart ×4 · HTML ×3 · Python ×3 · Shell ×2 · Kotlin ×1 · Java ×1 · PowerShell ×1 (ещё два репозитория — витрины без кода: `MyVPN-releases`, `routeveil-android`)
 - Ключевые направления: агентская автоматизация (DSH) · self-hosting · приватность · мобильные клиенты · книги и синтез речи
 
 ## 📬 Как связаться
@@ -151,6 +154,7 @@ All of my projects live here: the ecosystem around [DeepSeek Harness](https://gi
 | --- | --- | --- |
 | [local-llm](https://github.com/rukazax/local-llm) | Local LLM server on 4×Tesla V100 SXM2 (128 GB NVLink): hardware, engines, models, roadmap | docs · CUDA · llama.cpp |
 | [deepseek_harness](https://github.com/rukazax/deepseek_harness) | DeepSeek Harness plugins: MCP client + Sarex and Yandex Mail MCP servers | Node.js · Python |
+| [dsh_hub](https://github.com/rukazax/dsh_hub) | DSH federation: hub, nodes and Android app — every device's sessions in one window, one set of model keys, one shared memory | Node.js · Kotlin · SSE |
 | [dsh-mobile](https://github.com/rukazax/dsh-mobile) | Mobile remote control for DSH: plugin, PWA, WebView APK, manual | JavaScript · Kotlin |
 | [narwhal](https://github.com/rukazax/narwhal) | Unofficial DeepSeek Harness mobile client for Android | Flutter · Dart |
 | [dsh-ddns](https://github.com/rukazax/dsh-ddns) | DDNS updater (GitHub Actions + DuckDNS) for DSH | PowerShell |
@@ -210,8 +214,8 @@ All of my projects live here: the ecosystem around [DeepSeek Harness](https://gi
 
 ### 📊 Projects in numbers
 
-- **23 project repositories**: 17 public + 6 private (the `public repos` badge is a live counter and includes this profile repo; `private` is a snapshot of 2026-11-23)
-- Languages: JavaScript ×6 · Dart ×4 · HTML ×3 · Python ×3 · Shell ×2 · Kotlin ×1 · Java ×1 · PowerShell ×1 (two more repos are code-less showcases: `MyVPN-releases`, `routeveil-android`)
+- **24 project repositories**: 18 public + 6 private (the `public repos` badge is a live counter and includes this profile repo; `private` is a snapshot of 2026-11-23)
+- Languages: JavaScript ×7 · Dart ×4 · HTML ×3 · Python ×3 · Shell ×2 · Kotlin ×1 · Java ×1 · PowerShell ×1 (two more repos are code-less showcases: `MyVPN-releases`, `routeveil-android`)
 - Focus areas: agent automation (DSH) · self-hosting · privacy · mobile clients · books and speech synthesis
 
 ### 📬 Contact

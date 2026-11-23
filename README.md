@@ -97,7 +97,7 @@ graph LR
 
 | Репозиторий | Что это | Стек |
 | --- | --- | --- |
-| [shov](https://github.com/rukazax/shov) | «Шов» — серия на 30 томов. Том 1 «Щепка»: 33 главы, 608 881 знак; аудиоверсия на пяти голосах — 34 дорожки, 14 ч 57 мин. EPUB и mp3 в релизах | Python · TTS · edge-tts |
+| [shov](https://github.com/rukazax/shov) | «Шов» — серия на 30 томов. Тома 1 «Щепка» и 2 «Ходок»: 66 глав, 1 228 917 знаков; аудиоверсия тома 1 на пяти голосах — 34 дорожки, 14 ч 57 мин. EPUB и mp3 в релизах | Python · TTS · edge-tts |
 
 ## ⛵ ECONA
 
@@ -185,7 +185,7 @@ All of my projects live here: the ecosystem around [DeepSeek Harness](https://gi
 
 | Repository | What it is | Stack |
 | --- | --- | --- |
-| [shov](https://github.com/rukazax/shov) | «Shov» — a 30-volume series. Vol. 1 «Shchepka»: 33 chapters, 608,881 characters; a five-voice audiobook — 34 tracks, 14 h 57 min. EPUB and mp3 in releases | Python · TTS · edge-tts |
+| [shov](https://github.com/rukazax/shov) | «Shov» — a 30-volume series. Vols. 1 «Shchepka» and 2 «Khodok»: 66 chapters, 1,228,917 characters; a five-voice audiobook of vol. 1 — 34 tracks, 14 h 57 min. EPUB and mp3 in releases | Python · TTS · edge-tts |
 
 ### ⛵ ECONA
 
